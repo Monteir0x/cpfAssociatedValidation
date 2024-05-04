@@ -39,8 +39,10 @@ Expected JSON:
 ```
 
 Will return:
+```
 "data": JSON - specific data from given CNPJ received from Receita Federal
 "associated": boolean - checks whether the CPF entered belongs to the company with the CNPJ entered
+```
 ## Installation
 
 ```bash
