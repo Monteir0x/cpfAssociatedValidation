@@ -23,11 +23,8 @@ export class AppService {
     console.log("CPF:", cpf)
     const isAssociate = data.qsa.some((socio: any) => socio.cpf_representante_legal == cpf || socio.cnpj_cpf_do_socio == cpf)
     return {
-      "CPF": cpf,
       "data": data,
-      "representante": data.qsa.cpf_representante_legal,
-      "cpf": data.qsa.cnpj_cpf_do_socio,
-      "associado": isAssociate
+      "associated": isAssociate
     };
   }
 } 

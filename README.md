@@ -24,8 +24,23 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Expected JSON:
+```JSON
+{
+    "name": "nameTest",
+    "nickname": "nicknameTest",
+    "corporate": "corporateTest",
+    "fantasyName": "fantasyNameTest",
+    "cnpj": "12345678910111",
+    "mail": "mailTest@email.com",
+    "phoneNumber": "phoneNumberTest",
+    "cpf": "12345678910"
+}
+```
 
+Will return:
+"data": JSON - specific data from given CNPJ received from Receita Federal
+"associated": boolean - checks whether the CPF entered belongs to the company with the CNPJ entered
 ## Installation
 
 ```bash
