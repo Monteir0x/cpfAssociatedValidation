@@ -27,13 +27,7 @@
 Expected JSON:
 ```JSON
 {
-    "name": "nameTest",
-    "nickname": "nicknameTest",
-    "corporate": "corporateTest",
-    "fantasyName": "fantasyNameTest",
     "cnpj": "12345678910111",
-    "mail": "mailTest@email.com",
-    "phoneNumber": "phoneNumberTest",
     "cpf": "12345678910"
 }
 ```
