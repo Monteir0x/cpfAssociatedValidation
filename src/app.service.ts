@@ -25,6 +25,6 @@ export class AppService {
     return {
       "data": data,
       "associated": isAssociate
-    };
+    }
   }
-} 
+}
